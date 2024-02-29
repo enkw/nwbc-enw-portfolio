@@ -2,7 +2,10 @@
 * {
     scroll-behavior: smooth;
 }
+/* Style for the majority of the page */
 body {
+    display: flex;
+    flex-direction: column;
     background-color: #163950;
     color: #515a99;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,25 +17,46 @@ header, footer {
     align-items: center;
     padding: 2%;
     border-width: 6px;
+    background-color: #163950;
 }
 /* Style for the navigation bar */
 nav li, footer li {
     display: inline;
 }
+/* Style for the main body */
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+}
+p {}
+
 /* Style options for all pics other than prework study guide */
 .myPic, .projectSS {
-    width: 5%;
-    height: 5%;
+    max-width: 50%;
+    max-height: 50%;
+    margin: 0 15%;
+    margin-right: 5%;
+    float: left;
 }
 /* Style for the prework study guide pic */
 .projectPic {
     width: 10%;
     height: 10%;
-    padding: 2%;
+    margin: 0 15%;
 }
+/* Class to help me push the about me section's text to the right of the pic of me */
+.myPicWithText {
+    display: flex;
+    align-items: center;
+}
+
+/* Stlye for the borders of the header and footer */
 .hBorder {
     border-style: none none solid none;  
 }
+/* fBorder includes code to keep footer at the bottom of the page */
 .fBorder {
     border-style: solid none none none;
+    bottom: 0;
 }
