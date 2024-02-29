@@ -29,16 +29,22 @@ main {
     flex-direction: column;
     margin: 2% auto;
 }
+/* Style for my h1 through h3 */
 h1 {
     font-size: x-large;
 }
 h2 {
+    font-size: 24px;
     text-align: left;
     margin: 1% 2%;
 }
 h3 {
     text-align: right;
     margin: 2% 1%;
+}
+/* Gives the about me paragraph some room to breathe */
+p {
+    margin-right: 1%;
 }
 /* Style options for all pics other than prework study guide */
 .myPic {
