@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ian Wolfe's Personal Portfolio</title>
     <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <title>Ian Wolfe's Personal Portfolio</title>
 </head>
 <body>
     <!-- Header & Navigation bar -->
@@ -13,10 +13,9 @@
     <h1>ian wolfe</h1>
     <nav>
         <ul>
-            <li><a href="#">about me</a></li>
-            <li><a href="#">my work</a></li>
-            <li><a href="#">contact me</a></li>
-            <li><a href="#">picture of my cat</a></li>
+            <li><a href="#aboutMe">about me</a></li>
+            <li><a href="#myWork">my work</a></li>
+            <li><a href="#contactMe">contact me</a></li>
         </ul>
     </nav>
    </header> 
@@ -24,30 +23,28 @@
     <!-- Main Section for the three topics -->
     <section>
          <!-- About Me -->
-         <h2>About Me</h2>
+         <h2 id="aboutMe">About Me</h2>
          <div class="myPicWithText">
          <img class="myPic" src="./assets/images/me.jpg" alt="Image of a gorgeous young man (cat) and me, a large male human." />
-         <div>
          <p>
              My name is Ian Wolfe and I'm learning to be a full stack developer! In the past I've dabbled in game development, and I have a Bachelor's degree in Media Arts & Studies. For those wondering, my cat's name is Puck!
          </p>
          </div>
-         </div>
     </section>
     <section>
          <!-- My Work -->
-         <h2>My Work</h2>
+         <h2 id="myWork">My Work</h2>
          <h3>Prework Study Guide</h3>
          <img class="projectPic" src="./assets/images/Screenshot-of-prework-study-guide.png" alt="Basic application that displays introductory notes on HTML, CSS, GIT, and JavaScript." />
          <h3>Horiseon Accessibility Rework</h3>
-         <h3>TOP SECRET: COMING SOON</h3>
          <img class="projectSS" src="./assets/images/Screenshot-of-completed-challenge01.png" alt="Screenshot of our accessibility project, image includes sections on Search Engine Optimaztion, Online Reputation Management, and Social Media Marketing." />
+         <h3>COMING SOON</h3>
          <img class="projectSS" src="./assets/images/under-construction.jpg" alt="Yellow image of person doing construction work, with the text Under Constuction beneath it." />
     </section>
 </main>
     <footer class="fBorder">
          <!-- Contact Me Section to appear as the Footer -->
-         <h2>Contact Me</h2>
+         <h2 id="contactMe">Contact Me</h2>
             <ul>
                 <li>Phone: 313-420-6969</li>
                 <li>iankwolfe@gmail.com</li>
